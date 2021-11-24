@@ -30,6 +30,7 @@ html{
     margin: 6vw;
     width: 25vw;
 }
+
 .container-legiao{
     display: flex;
     justify-content: center;
@@ -37,12 +38,42 @@ html{
     left: 79vw;
     bottom: 10vh;
 }
+
 .legiao{
    width: 8vw;
 }
+
+
+
 main{
     background-image: url(./img/fundodois.png);
-    background-size: 200vw;
+    height:200vh;
     background-repeat: no-repeat;
-    background
+    margin-top: -10vw;
+    }
+.caixavermelha{
+    position: absolute;
+    height: 70vh;
+    left: 12vw;
+    bottom: 1vh;
+    top: 40.5vw;
+}
+.jogo{
+    width: 50vw;
+    margin-top: 15vw;
+    margin-right: 13vh;
+}
+.sobreojogo{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.container-linha{
+    display: flex;
+    justify-content: center;
+}
+.linha{
+    width: 80.8vw;
+    margin-left: 6vw;
+    margin-top: 9vw;
 }
