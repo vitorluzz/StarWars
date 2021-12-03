@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700;800&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -45,7 +45,9 @@ html{
 .legiao{
    width: 8vw;
 }
-
+.container-legiao:hover{
+   cursor: pointer;
+}
 
 
 main{
@@ -144,7 +146,7 @@ span{
     background-color: #2D2D2D;
     background-size: cover;
      margin-top: -4.3vw;
-     height:300vh;
+     height:272vh;
      width:100%
 }
 h3{
@@ -179,12 +181,165 @@ h3{
 .margin{
     margin-top: -0.4vw;
 }
-.hierarquia-pai{
-    display:flex;
-    justify-content: center;
-}
+
 .hierarquia{
     width:88.1vw;
-    margin-left: 1vw;
+    margin-left: 6vw;
     margin-top: 4vw;
+}
+figcaption{
+    font-size: 1vw;
+    font-weight: 200;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    padding-right: 5vw;
+    padding-top: 1vw;
+}
+.legenda{
+    margin-top: -1vw;
+}
+.storm{
+   position: absolute;
+   width: 30vw;
+   top: 237vw;
+   left: 5vw;
+}
+.titulo3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    font-size: 3vw;
+}
+.terceira-parte{
+    width:100%;
+    height: 70vh;
+}
+.caixa-pai{
+    display:flex;
+    justify-content: space-around;
+    padding-left: 30vw;
+}
+.text{
+    font-weight: 200;
+    font-size: 1.3vw;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.numeros{
+    font-weight: 200;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    padding-bottom: 2vw;
+}
+.caixa1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+button{
+    width: 14vw;
+    height: 9vh;
+    background-color: black;
+    color: white;
+    font-size: 1.5vw;
+    font-weight: 200;
+    cursor: pointer;
+}
+.box{
+    margin-top: 2vw;
+}
+.line{
+     width: 7vw;
+     border: solid;
+     border-color: black;
+     margin-top: 2vw;
+     margin-left: 3.5vw;
+   
+}
+
+button,.caixa-pai:hover{
+    font-weight: 900;
+}
+
+button:hover{
+    
+    background-image:conic-gradient(tomato 50%, black 50%);
+    cursor:pointer;
+}
+.numeros:hover{
+    font-weight: 900;
+}
+.line:hover{
+    border-color: tomato;
+}
+footer{
+    background-color: #FF5A56;
+    height: 136vh;
+    width: 63.4vw;
+    position: absolute;
+    top: 295vw;
+    
+}
+h4{
+    font-size: 3vw;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 2vw;
+}
+.texto-footer{
+    
+    font-size: 1.3vw;
+    font-weight: 200;
+    color: white;
+    display:flex; 
+    justify-content: start;
+
+}
+.container-footer{
+    padding-left: 10vw;
+    padding-top: 10vw;
+}
+.box-imagens{
+    padding-left: 10vw;
+    padding-top: 3vw;
+}
+.img-footer{
+    width: 17.4vw;
+    margin-right:1vw;
+}
+.line-footer{
+    margin-top: 5vw;
+    width: 36.3vw;
+    border: solid;
+    border-color: #D74430;
+    margin-left: 10vw;
+}
+.starwars-footer{
+    width: 15vw;
+    margin-left: 9vw;
+    margin-top: 4vw;
+    padding-bottom: 3vw;
+}
+.text-footer{
+    font-size: 1.3vw;
+    font-weight: 200;
+    color: white;
+    display:flex; 
+    justify-content: start;
+   
+    margin-left: 9vw;
+}
+.darthvader{
+    position: absolute;
+    bottom: 7.5vw;
+    left: 50vw;
+    width: 48vw;
+    height: 140vh;
+    
 }
