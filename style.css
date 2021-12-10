@@ -146,7 +146,7 @@ span{
     background-color: #2D2D2D;
     background-size: cover;
      margin-top: -4.3vw;
-     height:272vh;
+     height:260vh;
      width:100%
 }
 h3{
@@ -186,6 +186,7 @@ h3{
     width:88.1vw;
     margin-left: 6vw;
     margin-top: 4vw;
+    
 }
 figcaption{
     font-size: 1vw;
@@ -211,6 +212,8 @@ figcaption{
     color: white;
     font-weight: 900;
     font-size: 3vw;
+    
+    
 }
 .terceira-parte{
     width:100%;
@@ -280,8 +283,8 @@ button:hover{
 }
 footer{
     background-color: #FF5A56;
-    height: 136vh;
-    width: 63.4vw;
+    height: 130vh;
+    width: 63vw;
     position: absolute;
     top: 295vw;
     
@@ -337,9 +340,223 @@ h4{
 }
 .darthvader{
     position: absolute;
-    bottom: 7.5vw;
+    bottom: 5vw;
     left: 50vw;
     width: 48vw;
     height: 140vh;
     
+}
+@media(max-width: 425px){
+    .kyle{
+        width: 70vw;
+        position: absolute; 
+        left: 9vh;
+        
+     }
+     .container-logo{
+         width: 100%;
+         height: 110vh;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+     .star{
+         width: 25vw;
+         position: absolute;
+         top: 7vw;
+         left: 4vw;
+         
+     }
+     .wars{
+         margin: 6vw;
+         position: absolute;
+         top: 17vw;
+         left: 60vw;
+     }
+     main{
+        background-image: url(./img/fundodois.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -104vw;
+        height:105vh;
+        width:100%;
+        }
+     .caixavermelha{
+        position: absolute;
+        height: 65vh;
+        left: 33vw;
+        bottom: 1vh;
+        top: 55vw;
+    }
+    .container-lista{
+        position: absolute;
+        left:0vw;
+        top: 87vw;
+        
+        
+      }
+      .container-legiao{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 79vw;
+        top: 25vh;
+    }
+    .legiao{
+        width: 12vw;
+     }
+     .about-game{
+         background-image: url(./img/sobreojogo-mobile.png);
+         background-size: 61vh;
+         background-repeat: no-repeat;
+         width:140vw;
+         height: 100vw;
+         position: absolute;
+         left:11vw;
+         top: 155vw;
+
+     }
+     .segunda-parte{
+        background-color: #2D2D2D;
+        background-size: cover;
+       margin-top: -11.5vw;
+         height:295vh;
+         width:100%
+    }
+    .container-linha{
+        margin-top: 158vw;
+    }
+    
+    .container-lista{
+        margin-top: 155vw;
+        margin-left: -5vw;
+        
+    }
+    .rey{
+   width: 24vw;
+   position: absolute;
+   top: 248vw;
+   margin-left: 7vw;
+    }
+    li{
+        font-size: 2.5vw;
+    }
+    .sifh{
+        margin-left: 1vw;
+    }
+    h2, p, span{
+        font-size: 4vw;
+    }
+    
+    .grid-imagem1{
+        width: 90vw;
+        
+     }
+    .pai-grid{
+        display:block;
+        
+    }
+    .imagem-grid{
+        width: 90vw;
+        margin-left: 6vw;
+    }
+    .opacity{
+        position: absolute;
+        margin-top: 208vw;
+        margin-left: -46vw;
+        width: 95vw;
+    }
+    .sifh{
+        
+     }
+    h3{
+    font-size: 4vw;
+    color: white;
+    font-weight: 800;
+    display:flex;
+    justify-content:center;
+ }
+    footer{
+        margin-top: 510vw;
+        height: 150vh;
+        width:100%;
+    }
+    .hierarquia{
+        width: 100vw;
+        margin-left: -0vw;
+        
+    }
+    .storm{
+        position: absolute;
+        width:100vw;
+        height:110vh;
+        top: 654vw;
+        left: -40vw;
+    }
+    figcaption{
+        
+        display:flex;
+        justify-content: end;
+        font-size: 1.5vw;
+        font-weight: 200;
+    }
+    .titulo3{
+        font-size: 4vw;
+        margin-left: 20vw;
+    }
+    .caixa-pai{
+        display: block;
+        margin-left: 25vw;
+    }
+    .text{
+        display:flex;
+        font-size: 3vw;
+        margin-left: -14vw;
+    }
+    .numeros{
+        margin-left: 12vw;
+        display:block;
+       font-size: 5vw;
+    }
+    .caixa1{
+        display:block;
+     }
+        button{
+            width:30vw;
+            font-size: 3vw;
+        }
+        .line{
+            width: 20vw;
+        }
+       .darthvader{
+           margin-bottom: -100vw;
+       } 
+       h4{
+           font-size: 15vw;
+           margin-left: -5vw;
+       }
+       .texto-footer{
+           font-size: 4vw;
+       }
+       .img-footer{
+           width:40vw;
+       }
+       .line-footer{
+           width: 82.5vw;
+       }
+       .starwars-footer{
+           width: 50vw;
+           margin-left: 25vw;
+
+       }
+       .text-footer{
+           font-size: 4vw;
+       }
+       .darthvader{
+           width: 100vw;
+           height: 100vh;
+           position: absolute;
+           left: 1vw;
+           
+       }
 }
